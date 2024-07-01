@@ -5,11 +5,11 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 const navItems = [
 	{
 		name: "About",
-		link: "#home",
+		link: "#about",
 	},
 	{
 		name: "Projects",
-		link: "#about",
+		link: "#projects",
 	},
 	{
 		name: "Contact",
