@@ -6,32 +6,34 @@ import { gridItems } from "@/data";
 const Grid = () => {
   return (
     <TracingBeam className="w-full">
-      <BentoGrid>
-        {gridItems.map(
-          ({
-            id,
-            description,
-            className,
-            title,
-            titleClassName,
-            img,
-            imgClassName,
-            spareImg,
-          }) => (
-            <BentoGridItem
-              id={id}
-              key={id}
-              title={title}
-              description={description}
-              className={className}
-              img={img}
-              titleClassName={titleClassName}
-              imgClassName={imgClassName}
-              spareImage={spareImg}
-            />
-          )
-        )}
-      </BentoGrid>
+      <section id="about">
+        <BentoGrid>
+          {gridItems.map(
+            ({
+              id,
+              description,
+              className,
+              title,
+              titleClassName,
+              img,
+              imgClassName,
+              spareImg,
+            }) => (
+              <BentoGridItem
+                id={id}
+                key={id}
+                title={title}
+                description={description}
+                className={className}
+                img={img}
+                titleClassName={titleClassName}
+                imgClassName={imgClassName}
+                spareImage={spareImg}
+              />
+            )
+          )}
+        </BentoGrid>
+      </section>
     </TracingBeam>
   );
 };

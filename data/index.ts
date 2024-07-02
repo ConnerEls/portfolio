@@ -75,7 +75,7 @@ export const gridItems = [
 		description: "",
 		className: "lg:col-span-3 md:col-span-2 ",
 		imgClassName: "",
-		titleClassName: "justify-center md:max-w-full max-w-60 text-start",
+		titleClassName: "justify-center md:max-w-full max-w-60",
 		img: "",
 		spareImg: "",
 	},

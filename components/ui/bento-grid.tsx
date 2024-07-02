@@ -101,10 +101,11 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+
         {/* Gradient BG */}
         {id === 6 && (
-          <BackgroundGradientAnimation className="">
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold " />
+          <BackgroundGradientAnimation>
+            
           </BackgroundGradientAnimation>
         )}
 
@@ -154,7 +155,7 @@ export const BentoGridItem = ({
 
           {/* Copy Email */}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 relative justify-center">
               {copied && (
                 <div className="absolute -bottom-5 right-0 block">
                   <Lottie options={defaultOptions} />
