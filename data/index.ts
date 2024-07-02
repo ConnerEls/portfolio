@@ -1,8 +1,20 @@
 export const navItems = [
-	{ name: "About", link: "#about" },
-	{ name: "Projects", link: "#projects" },
-	{ name: "Testimonials", link: "#testimonials" },
-	{ name: "Contact", link: "#contact" },
+	{
+		name: "Home",
+		link: "#top",
+	},
+	{
+		name: "About",
+		link: "#about",
+	},
+	{
+		name: "Projects",
+		link: "#projects",
+	},
+	{
+		name: "Contact",
+		link: "#contact",
+	},
 ];
 
 export const gridItems = [
@@ -49,7 +61,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently building a JS Animation library",
+		title: "Currently working on learning Next.js",
 		description: "The Inside Scoop",
 		className: "md:col-span-2 md:row-span-1",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
