@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-hover-card": "^1.1.1",
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "@tabler/icons-react": "^3.7.0",
@@ -17,6 +18,7 @@
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",
     "next-themes": "^0.3.0",
+    "qss": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
