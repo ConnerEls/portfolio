@@ -178,29 +178,29 @@ export const companies = [
 export const workExperience = [
 	{
 		id: 1,
-		title: "Frontend Engineer Intern",
-		desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+		title: "Unity XR Developer",
+		desc: "I create and deliver training simulations in VR for various industries, such as health and safety, manufacturing, and automotive.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 	},
 	{
 		id: 2,
-		title: "Mobile App Dev - JSM Tech",
-		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+		title: "UI / UX Developer",
+		desc: "Studied and Quilified UI / UX Developer. Created multiple project to enhance my skills.",
 		className: "md:col-span-2", // change to md:col-span-2
 		thumbnail: "/exp2.svg",
 	},
 	{
-		id: 3,
-		title: "Freelance App Dev Project",
-		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+		id: 2,
+		title: "Freelance UI / UX Developer",
+		desc: "Led the dev of a web site for a NPO client, from initial concept to live deployment.",
 		className: "md:col-span-2", // change to md:col-span-2
 		thumbnail: "/exp3.svg",
 	},
 	{
 		id: 4,
 		title: "Lead Frontend Developer",
-		desc: "Developed and maintained user-facing features using modern frontend technologies.",
+		desc: "Developed user-facing features using modern frontend technologies.",
 		className: "md:col-span-2",
 		thumbnail: "/exp4.svg",
 	},

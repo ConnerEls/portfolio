@@ -1,6 +1,9 @@
 import { workExperience } from "@/data";
 import React from "react";
 import { Button } from "./ui/MovingBorders";
+import { Meteors } from "./ui/meteors";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Experience = () => {
   return (
@@ -23,8 +26,8 @@ const Experience = () => {
                             {card.desc}
                         </p>
                     </div>
-                </div>
-            </Button>
+                </div>                       
+            </Button>           
         ))}
       </div>
     </div>
