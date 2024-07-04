@@ -191,7 +191,7 @@ export const workExperience = [
 		thumbnail: "/exp2.svg",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Freelance UI / UX Developer",
 		desc: "Led the dev of a web site for a NPO client, from initial concept to live deployment.",
 		className: "md:col-span-2", // change to md:col-span-2
