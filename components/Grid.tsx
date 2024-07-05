@@ -5,7 +5,7 @@ import { gridItems } from "@/data";
 
 const Grid = () => {
   return (
-    <TracingBeam className="w-full">
+    <TracingBeam className="w-full sm:hidden">
       <section id="about">
         <BentoGrid>
           {gridItems.map(

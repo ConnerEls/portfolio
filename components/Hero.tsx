@@ -47,7 +47,7 @@ const Hero = () => {
 					</div>
 
 					<p className="text-center md:tracking-wider mb-3 text-sm md:text-sm lg:text-lg mt-3">
-						Hi, I'm Conner. A Unity XR Developer and a UI/UX Developer.
+						Hi, I&apos;m Conner. A Unity XR Developer and a UI/UX Developer.
 					</p>
 
 					<a href="#about">

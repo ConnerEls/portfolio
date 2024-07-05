@@ -90,18 +90,18 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+		title: "React Admin Dashboard",
+		des: "A React Admin Dashboard With Real time Data, Charts, Events, Kanban, CRM, and More",
 		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+		iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
 		link: "https://github.com/ConnerEls?tab=repositories",
 	},
 	{
 		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+		title: "Full Stack E-Commerce App",
+		des: "An incredible Full Stack E-Commerce App with an Admin Dashboard & CMS using Next 14, Stripe, TypeScript, and Payload CMS.",
 		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+		iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
 		link: "https://github.com/ConnerEls?tab=repositories",
 	},
 	{
@@ -114,66 +114,6 @@ export const projects = [
 	},
 ];
 
-export const testimonials = [
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-];
-
-export const companies = [
-	{
-		id: 1,
-		name: "cloudinary",
-		img: "/cloud.svg",
-		nameImg: "/cloudName.svg",
-	},
-	{
-		id: 2,
-		name: "appwrite",
-		img: "/app.svg",
-		nameImg: "/appName.svg",
-	},
-	{
-		id: 3,
-		name: "HOSTINGER",
-		img: "/host.svg",
-		nameImg: "/hostName.svg",
-	},
-	{
-		id: 4,
-		name: "stream",
-		img: "/s.svg",
-		nameImg: "/streamName.svg",
-	},
-	{
-		id: 5,
-		name: "docker.",
-		img: "/dock.svg",
-		nameImg: "/dockerName.svg",
-	},
-];
 
 export const workExperience = [
 	{
@@ -192,7 +132,7 @@ export const workExperience = [
 	},
 	{
 		id: 3,
-		title: "Freelance UI / UX Developer",
+		title: "Freelance Web Designer",
 		desc: "Led the dev of a web site for a NPO client, from initial concept to live deployment.",
 		className: "md:col-span-2", // change to md:col-span-2
 		thumbnail: "/exp3.svg",
@@ -200,7 +140,7 @@ export const workExperience = [
 	{
 		id: 4,
 		title: "Lead Frontend Developer",
-		desc: "Developed user-facing features using modern frontend technologies.",
+		desc: "Developing user-facing features using modern frontend technologies.",
 		className: "md:col-span-2",
 		thumbnail: "/exp4.svg",
 	},
@@ -210,13 +150,11 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "https://github.com/ConnerEls?tab=repositories",
 	},
 	{
 		id: 2,
-		img: "/twit.svg",
-	},
-	{
-		id: 3,
 		img: "/link.svg",
+		link: "https://www.linkedin.com/in/conner-els-920816245/?trk=nav_responsive_tab_profile_pic&originalSubdomain=za",
 	},
 ];
