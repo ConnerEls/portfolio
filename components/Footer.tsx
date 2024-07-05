@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* repositioned in header */}
-      <BackgroundBeams className="z-0 w-screen h-[40rem]" />
+      <BackgroundBeams className="max-sm:hidden lg:block md:block z-0 lg:w-screen lg:h-[40rem]"/>
       <div className="h-[40rem] w-full rounded-md relative flex flex-col items-center justify-center antialiased">
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw]">

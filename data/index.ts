@@ -92,7 +92,7 @@ export const projects = [
 		id: 1,
 		title: "React Admin Dashboard",
 		des: "A React Admin Dashboard With Real time Data, Charts, Events, Kanban, CRM, and More",
-		img: "/p1.svg",
+		img: "/ReactDashboard.webp",
 		iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
 		link: "https://github.com/ConnerEls?tab=repositories",
 	},
