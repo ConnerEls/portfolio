@@ -1,44 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
 
-## About
+## Usage
 
-This is my personal portfolio website where I highlight my professional journey, showcase my projects, and provide information about my skills and experiences. This website serves as an online resume and a platform to connect with potential employers, collaborators, and like-minded individuals.
+### Create an App
 
-## Features
+```
+# with npx
+$ npx create-nextron-app my-app --example basic-lang-javascript
 
-👉 Hero: Captivating introduction featuring a spotlight effect and dynamic background.
+# with yarn
+$ yarn create nextron-app my-app --example basic-lang-javascript
 
-👉 Bento Grid: Modern layout presenting personal information using cutting-edge CSS design techniques.
+# with pnpm
+$ pnpm dlx create-nextron-app my-app --example basic-lang-javascript
+```
 
-👉 3D Elements: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+### Install Dependencies
 
-👉 Testimonials: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
+```
+$ cd my-app
 
-👉 Work Experience: Prominent display of professional background for emphasis and credibility.
+# using yarn or npm
+$ yarn (or `npm install`)
 
-👉 Canvas Effect: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+# using pnpm
+$ pnpm install --shamefully-hoist
+```
 
-👉 Responsiveness: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
+### Use it
 
-## Technologies Used
+```
+# development mode
+$ yarn dev (or `npm run dev` or `pnpm run dev`)
 
-- React
-- Next.js
-- tailwindcss
-- framer-motion
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/ConnerEls/portfolio.git
-
-2. Run the dev environment
-   ``` 
-    npm i
-
-    npm run dev
-   ```
+# production build
+$ yarn build (or `npm run build` or `pnpm run build`)
+```

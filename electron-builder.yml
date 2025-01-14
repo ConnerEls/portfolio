@@ -1,0 +1,27 @@
+appId: com.odinvr.app
+productName: OdinVR
+directories:
+  buildResources: build
+  output: dist/
+files:
+  - dist/
+  - main/
+  - renderer/
+  - package.json
+win:
+  target: nsis
+  icon: build/icon.ico
+mac:
+  target: dmg
+  icon: build/icon.icns
+nsis:
+  oneClick: false
+  perMachine: true
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: "OdinVR"
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  createStartMenuShortcut: true
+  script: build/installer.nsh
